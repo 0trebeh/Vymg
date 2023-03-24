@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .sgvicon {
     margin: 0;
@@ -187,7 +187,6 @@
 .card .contenido-card p{
 	line-height: 1.8;
 	color: #6a6a6a;
-	font-size: 14px;
 	margin-bottom: 5px;
     text-align: left;
 }
@@ -289,19 +288,6 @@
 }
 .content_slider div{
     text-align: center;
-}
-.content_slider h2{
-    font-family: 'arial';
-    font-size: 30pt;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.content_slider p {
-    font-size: 15pt;
-    font-family: 'arial';
-    color: #FFF;
-    margin-bottom: 20px;
 }
 #slider li .content_slider{
     padding: 0;
@@ -446,6 +432,9 @@
     .card-info {
         width: auto;
     }
+    .jump {
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -459,12 +448,7 @@
 
 
 @media screen and (max-width: 460px){
-	.content_slider h2 {
-	    font-size: 15pt !important;
-	}
-	.content_slider p {
-	    font-size: 12pt !important;
-	}
+
 	#container-slider .arrowPrev, #container-slider .arrowNext{
 		font-size: 20pt;
 	}
@@ -505,6 +489,7 @@
 
     .footer {
         padding: 60px 0px 10px 0px;
+        min-height: 80vh;
     }
     .card-contact-info {
         width: auto;

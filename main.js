@@ -1,4 +1,4 @@
-//document.oncontextmenu = function(){return false;}
+document.oncontextmenu = function(){return false;}
 
 if(document.querySelector('#container-slider')){
     setInterval('fntExecuteSlide("next")',7000);
