@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 50%, #1E90FF 100%);
+    background: linear-gradient(135deg, #78c3e1 0%, #4682B4 50%, #1E90FF 100%);
     min-height: 100vh;
     position: relative;
     overflow: hidden;
@@ -80,7 +80,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #0670ae;
+    color: #005187;
     transform: translateY(-2px);
 }
 
@@ -91,7 +91,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #0670ae;
+    background: #005187;
     transition: width 0.3s ease;
 }
 
@@ -175,6 +175,48 @@ body {
     opacity: 0.9;
 }
 
+.btn-cta {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #005187;
+  background: linear-gradient(135deg, #9fc2e1, #ffffff);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-cta::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ffffff, #9fc2e1);
+  border-radius: 15px;
+  z-index: -1;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  transform: scale(1.05);
+}
+
+.btn-cta:hover::after {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 0 20px rgba(114, 199, 255, 0.559);
+}
+
+
 @keyframes titleGlow {
     from { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
     to { text-shadow: 2px 2px 20px rgba(255,255,255,0.5); }
@@ -204,7 +246,7 @@ body {
 }
 
 .arrow-down a {
-    padding: 2rem;
+    padding: 0 2rem;
     color: white;
     text-decoration: none;
 }
@@ -394,7 +436,7 @@ body {
 /* Testimonios */
 .testimonios {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 100%);
+    background-color: rgb(67, 132, 188);
 }
 
 .testimonios .section-title {
@@ -538,7 +580,7 @@ body {
 /* Contacto */
 .contacto {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 100%);
+    background: linear-gradient(135deg, #78c3e1 0%, #4682B4 100%);
 }
 
 .contacto .section-title {
@@ -631,6 +673,15 @@ body {
     color: white;
     text-align: center;
     padding: 2rem 0;
+}
+
+.footer-ref{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-ref:hover{
+    text-decoration: underline;
 }
 
 /* AOS Animation Classes */
