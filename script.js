@@ -158,34 +158,6 @@ function initScrollAnimations() {
     });
 }
 
-// Add CSS animation keyframes dynamically
-function addAnimationStyles() {
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes slideInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-        
-        .pulse-animation {
-            animation: pulse 2s infinite;
-        }
-    `;
-    document.head.appendChild(style);
-}
-
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     initAOS();
@@ -194,13 +166,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initParallax();
     initCardEffects();
     initScrollAnimations();
-    addAnimationStyles();
-    
-    // Add pulse animation to contact phone number
-    const phoneNumber = document.querySelector('.phone-number');
-    if (phoneNumber) {
-        phoneNumber.classList.add('pulse-animation');
-    }
     
     // Add click effects to buttons
     document.querySelectorAll('.gallery-btn').forEach(btn => {
