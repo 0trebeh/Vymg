@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Organizamos fiestas infantiles con inflables, trampolines, cotufas y más. Diversión garantizada para niños en tus eventos especiales. Contáctanos.">
-    <meta name="keywords" content="fiestas infantiles, alquiler de inflables, trampolines, cotufas, animación para niños, eventos, cumpleaños, caracas, entretenimiento">
+    <meta name="description" content="VYMG - Entretenimiento profesional para fiestas infantiles y eventos familiares. Inflables, trampolines, cotufas y mas. Diversión garantizada.">
+    <meta name="keywords" content="fiestas infantiles, alquiler de inflables, trampolines, cotufas, animacion para ninos, eventos, cumpleanos, caracas, entretenimiento">
     <meta name="author" content="VYMG Eventos y Fiestas">
     <link rel="canonical" href="https://vymg.github.io/" />
 
-    <meta property="og:title" content="Vymg | Fiestas y Eventos">
-    <meta property="og:description" content="Alquiler de inflables, trampolines y más para eventos infantiles.">
+    <meta property="og:title" content="VYMG | Fiestas y Eventos Premium">
+    <meta property="og:description" content="Entretenimiento profesional para eventos infantiles inolvidables. Inflables, trampolines y mas.">
     <meta property="og:image" content="https://vymg.github.io/img/ico.jpg">
     <meta property="og:url" content="https://vymg.github.io/">
     <meta property="og:type" content="website">
+    
+    <meta name="theme-color" content="#000000">
 
     <link rel="icon" href="./img/ico.jpg" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <title>Vymg | Fiestas y Eventos</title>
+    <title>VYMG | Fiestas y Eventos Premium</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+    
     <!-- Header -->
     <header class="header">
-        <nav class="nav">
+        <nav class="nav" id="navbar">
             <div class="logo">
                 <div class="logo-letters">
                     <span class="letter v">V</span>
@@ -33,53 +43,52 @@
             </div>
             
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a></li>
                 <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#galeria" class="nav-link">Galería</a></li>
-                <li><a href="#contacto" class="nav-link">Contáctanos</a></li>
+                <li><a href="#sobre-nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
                 <li class="icons-mobile">
-
-                    <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
+                    <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg>
                     </a>
-
-                    <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
+                    <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                         </svg>
                     </a>
-
-                    <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                        </svg>    
+                    <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
                     </a>
-            
                 </li>
             </ul>
 
             <div class="social-icons">
-                <!--Facebook-->
-                <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
+                <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                     </svg>
                 </a>
-                <!--WhatsApp-->
-                <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
+                <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
                 </a>
-                <!--Instagram-->
-                <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                    </svg>    
+                <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
                 </a>
             </div>
+            
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -88,205 +97,252 @@
         </nav>
         
         <!-- Hero Section -->
-        <div class="hero">
+        <section class="hero">
             <div class="hero-content">
-                <h1 class="hero-title">Fiestas y Eventos Vymg.</h1>
-                <p class="hero-subtitle">Siempre a tiempo para la diversión</p>
-                <a href="#contacto" class="btn-cta">¡Reserva tu evento!</a>
-                <div class="scroll-indicator">
-                    <div class="arrow-down">
-                        <a href="#servicios">↓</a>
-                    </div>
+                <div class="hero-badge">
+                    <span>Disponibles 24/7</span>
+                </div>
+                <h1 class="hero-title">
+                    Entretenimiento <span class="highlight">Premium</span><br>
+                    para Eventos Inolvidables
+                </h1>
+                <p class="hero-subtitle">
+                    Somos una empresa familiar especializada en fiestas infantiles y eventos. 
+                    Inflables, trampolines, cotufas y mucho mas para crear momentos magicos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://Wa.me/+584121213586" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Reservar Ahora
+                    </a>
+                    <a href="#servicios" class="btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                        </svg>
+                        Ver Servicios
+                    </a>
                 </div>
             </div>
-
-            <div class="wave-container">
-                <svg class="wave" viewBox="0 0 1200 240" preserveAspectRatio="none">
-                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
+            
+            <div class="scroll-indicator">
+                <div class="arrow-down">
+                    <a href="#servicios" aria-label="Scroll down">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <!-- Servicios Section -->
     <section id="servicios" class="servicios">
         <div class="container">
-            <h2 class="section-title">Servicios que Ofrecemos</h2>
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+                Equipos de primera calidad y atencion personalizada para hacer de tu evento una experiencia inolvidable.
+            </p>
             <div class="servicios-grid">
-                <div class="servicio-card" data-aos="fade-up">
+                <article class="servicio-card" data-aos="fade-up">
                     <div class="card-image">
-                        <img src="./servicios/1.jpg" alt="Inflables">
+                        <img src="./servicios/1.jpg" alt="Inflables para fiestas infantiles" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Inflables</h3>
-                        <p><strong>Dimensiones:</strong> Varios tamaños disponibles</p>
-                        <p><strong>Capacidad:</strong> 4-8 niños dependiendo del modelo</p>
-                        <p><strong>Advertencia:</strong> No se puede utilizar sin luz ni bajo la lluvia</p>
+                        <p><strong>Dimensiones:</strong> Varios tamanos disponibles</p>
+                        <p><strong>Capacidad:</strong> 4-8 ninos dependiendo del modelo</p>
+                        <p><strong>Nota:</strong> No se puede utilizar sin luz ni bajo la lluvia</p>
                     </div>
-                </div>
+                </article>
                 
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="100">
+                <article class="servicio-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-image">
-                        <img src="./servicios/4.jpg" alt="Trampolines">
+                        <img src="./servicios/4.jpg" alt="Trampolines profesionales" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Trampolines</h3>
-                        <p><strong>Dimensiones:</strong> 4 metros de diámetro</p>
-                        <p><strong>Capacidad:</strong> 8 niños pequeños, 3 medianos, 2 grandes</p>
-                        <p>Opción perfecta si llueve o se va la luz</p>
-                        <div class="jumping-kid" id="jumping-kid">
-                            <div class="kid">👦</div>
-                        </div>
+                        <p><strong>Dimensiones:</strong> 4 metros de diametro</p>
+                        <p><strong>Capacidad:</strong> 8 ninos pequenos, 3 medianos, 2 grandes</p>
+                        <p>Opcion perfecta si llueve o se va la luz</p>
                     </div>
-                </div>
+                </article>
                 
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
+                <article class="servicio-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-image">
-                        <img src="./servicios/6.jpg" alt="Servicios Adicionales">
+                        <img src="./servicios/6.jpg" alt="Servicios adicionales para eventos" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Servicios Adicionales</h3>
-                        <p><strong>Incluye:</strong> Cotufera y Algodonera, Pinta Caritas, Decoración, Recreación, Video beam y Sonido...</p>
-                        <p>Para saber más, visita nuestras <a href="#contacto">redes sociales</a>.</p>
+                        <p><strong>Incluye:</strong> Cotufera y Algodonera, Pinta Caritas, Decoracion, Recreacion, Video beam y Sonido...</p>
+                        <p>Para saber mas, visita nuestras <a href="#contacto">redes sociales</a>.</p>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!--Divisor-->
-    <div id="sobre-nosotros" class="divisor"></div>
+    <!-- Divisor -->
+    <div class="divisor" id="sobre-nosotros"></div>
 
     <!-- Sobre Nosotros Section -->
     <section class="sobre-nosotros">
         <div class="container">
             <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="section-divider"></div>
             <div class="sobre-content">
                 <div class="sobre-image" data-aos="fade-right">
-                    <img src="./img/uniforme.jpg" alt="Fiestas y eventos Vymg">
+                    <img src="./img/uniforme.jpg" alt="Equipo de Fiestas y eventos VYMG" loading="lazy">
                 </div>
                 <div class="sobre-text" data-aos="fade-left">
-                    <h3>Fiestas y eventos Vymg.</h3>
-                    <p>Somos una empresa familiar. Nos enorgullece trabajar para garantizar la diversión y seguridad de los niños. Ya sea que esté planeando una fiesta de cumpleaños, una reunión escolar o cualquier otro evento, nuestro objetivo es hacer que su evento sea un éxito.</p>
-                    <p>¡Contacte con nosotros hoy mismo para reservar su equipo de alquiler y hacer que su próximo evento sea inolvidable!</p>
+                    <h3>Fiestas y Eventos VYMG</h3>
+                    <p>
+                        Somos una empresa familiar. Nos enorgullece trabajar para garantizar 
+                        la diversion y seguridad de los ninos. Ya sea que este planeando una 
+                        fiesta de cumpleanos, una reunion escolar o cualquier otro evento, 
+                        nuestro objetivo es hacer que su evento sea un exito.
+                    </p>
+                    <p>
+                        Contacte con nosotros hoy mismo para reservar su equipo de alquiler 
+                        y hacer que su proximo evento sea inolvidable.
+                    </p>
+                    <a href="#contacto" class="btn-primary" style="margin-top: 1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Contactanos
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonios Section -->
-    <section class="testimonios">
+    <section id="testimonios" class="testimonios">
         <div class="container">
-            <h2 class="section-title">Nuestro Legado son solo clientes Satisfechos!</h2>
+            <h2 class="section-title">Clientes Satisfechos</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+                Nuestro legado son las experiencias inolvidables que creamos para cada familia.
+            </p>
             <div class="testimonios-container" data-aos="fade-up">
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/C5izdHIOejv/?utm_source=ig_web_copy_link', '_blank')">
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/C5izdHIOejv/?utm_source=ig_web_copy_link', '_blank')">
                     <div class="testimonio-content">
                         <h4>@0trebeh</h4>
-                        <p>¡Todo estuvo genial! Los inflables y trampolines súper divertidos y seguros. A los niños les encantó y las cotufas fueron un éxito total 🍿🎉. 100% recomendados, muy puntuales y responsables 💯👏</p>
+                        <p>Todo estuvo genial! Los inflables y trampolines super divertidos y seguros. A los ninos les encanto y las cotufas fueron un exito total. 100% recomendados, muy puntuales y responsables.</p>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/BtHT7pil5XD/', '_blank')">
+                </article>
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/BtHT7pil5XD/', '_blank')">
                     <div class="testimonio-content">
                         <h4>@carolinanohemyrojano</h4>
-                        <p>Excelente atención y paciencia con los niños!!! Los recomiendo 100% muy responsables!</p>
+                        <p>Excelente atencion y paciencia con los ninos! Los recomiendo 100% muy responsables!</p>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/BsBY0jHH_O7/', '_blank')">
+                </article>
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/BsBY0jHH_O7/', '_blank')">
                     <div class="testimonio-content">
                         <h4>@Projectlifeoriginal</h4>
-                        <p>que nivel!! 👌</p>
+                        <p>Que nivel!! Excelente servicio y atencion.</p>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/Bs3ygsHg4Cc/', '_blank')">
+                </article>
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/Bs3ygsHg4Cc/', '_blank')">
                     <div class="testimonio-content">
                         <h4>@conchitahurtado14</h4>
-                        <p>Muchísimas gracias los recomiendo 100% confiables y responsables los niños disfrutaron las 5 horas de Trampolín 😄 gracias por todo 👍👏👏</p>
+                        <p>Muchisimas gracias los recomiendo 100% confiables y responsables los ninos disfrutaron las 5 horas de Trampolin. Gracias por todo!</p>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/CdzhJH5Ote6/', '_blank')">
+                </article>
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/CdzhJH5Ote6/', '_blank')">
                     <div class="testimonio-content">
                         <h4>@gerardoenavaprieto</h4>
-                        <p>Que bueno son estos chicos muy responsable y cuidadosos con los chamos</p>
+                        <p>Que bueno son estos chicos muy responsable y cuidadosos con los chamos.</p>
                     </div>
-                </div>
-                
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/CHBbJguFxkk/', '_blank')">
+                </article>
+                <article class="testimonio" onclick="window.open('https://www.instagram.com/p/CHBbJguFxkk/', '_blank')">
                     <div class="testimonio-content">
                         <h4>@panyalita</h4>
-                        <p>Gracias lo recomendamos 100 porciento 👏 el chico es muy responsable y puntual</p>
+                        <p>Gracias lo recomendamos 100 porciento. El chico es muy responsable y puntual.</p>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Galería Section -->
+    <!-- Galeria Section -->
     <section id="galeria" class="galeria-section">
-        <h2 class="section-title">Galería</h2>
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+                Momentos de alegria y diversion capturados en nuestros eventos.
+            </p>
+        </div>
         <div class="galeria">
             <div class="container-customgallery">
                 <div class="gallery-container" data-aos="fade-up">
                     <div class="gallery-slider">
                         <div class="gallery-slide active">
-                            <img src="./galeria/1.jpg" alt="Galería 1">
+                            <img src="./galeria/1.jpg" alt="Galeria - Evento 1" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/2.jpg" alt="Galería 2">
+                            <img src="./galeria/2.jpg" alt="Galeria - Evento 2" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/3.jpg" alt="Galería 3">
+                            <img src="./galeria/3.jpg" alt="Galeria - Evento 3" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/4.jpg" alt="Galería 4">
+                            <img src="./galeria/4.jpg" alt="Galeria - Evento 4" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/5.jpg" alt="Galería 5">
+                            <img src="./galeria/5.jpg" alt="Galeria - Evento 5" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/6.jpg" alt="Galería 6">
+                            <img src="./galeria/6.jpg" alt="Galeria - Evento 6" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/7.jpg" alt="Galería 7">
+                            <img src="./galeria/7.jpg" alt="Galeria - Evento 7" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/8.jpg" alt="Galería 8">
+                            <img src="./galeria/8.jpg" alt="Galeria - Evento 8" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/9.jpg" alt="Galería 9">
+                            <img src="./galeria/9.jpg" alt="Galeria - Evento 9" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/10.jpg" alt="Galería 10">
+                            <img src="./galeria/10.jpg" alt="Galeria - Evento 10" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/11.jpg" alt="Galería 11">
+                            <img src="./galeria/11.jpg" alt="Galeria - Evento 11" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/12.jpg" alt="Galería 12">
+                            <img src="./galeria/12.jpg" alt="Galeria - Evento 12" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/13.jpg" alt="Galería 13">
+                            <img src="./galeria/13.jpg" alt="Galeria - Evento 13" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/14.jpg" alt="Galería 14">
+                            <img src="./galeria/14.jpg" alt="Galeria - Evento 14" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/15.jpg" alt="Galería 15">
+                            <img src="./galeria/15.jpg" alt="Galeria - Evento 15" loading="lazy">
                         </div>
                         <div class="gallery-slide">
-                            <img src="./galeria/16.jpg" alt="Galería 16">
+                            <img src="./galeria/16.jpg" alt="Galeria - Evento 16" loading="lazy">
                         </div>
                     </div>
-                    <button class="gallery-btn prev" onclick="changeSlide(-1)">❮</button>
-                    <button class="gallery-btn next" onclick="changeSlide(1)">❯</button>
+                    <button class="gallery-btn prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="gallery-btn next" onclick="changeSlide(1)" aria-label="Next slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
                 </div>
-            </div>
-
-            <div class="jump">
-                <img class="nino" src="img/nino.jpg" width="60px" alt="boy jumping">
-                <br/>
-                <img class="tramp" src="img/trampolin.png" width="150px" alt="boy jumping">
             </div>
         </div>
     </section>
@@ -294,45 +350,59 @@
     <!-- Contacto Section -->
     <section id="contacto" class="contacto">
         <div class="container">
-            <h2 class="section-title">Contáctanos</h2>
+            <h2 class="section-title">Contactanos</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">
+                Estamos listos para hacer de tu evento una experiencia inolvidable.
+            </p>
             <div class="contacto-content">
                 <div class="contacto-info" data-aos="fade-right">
                     <div class="contacto-card">
-                        <h3>Fiestas y Eventos Vymg.</h3>
-                        <div class="contacto-item">
-                            <span class="icon">📞</span>
-                            <span onclick="location.href='tel:04121213586'">0412-1213586</span>
+                        <h3>Fiestas y Eventos VYMG</h3>
+                        <div class="contacto-item" onclick="location.href='tel:04121213586'">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </span>
+                            <span>0412-1213586</span>
                         </div>
-                        <div class="contacto-item">
-                            <span class="icon">✉️</span>
-                            <span onclick="location.href='mailto:gerardo.nava1992@gmail.com'">gerardo.nava1992@gmail.com</span>
+                        <div class="contacto-item" onclick="location.href='mailto:gerardo.nava1992@gmail.com'">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </span>
+                            <span>gerardo.nava1992@gmail.com</span>
                         </div>
-                        <div class="contacto-item">
-                            <span class="icon">📍</span>
-                            <span
-                                onclick="window.open('https://www.google.com/maps/place/Zulia,+Venezuela/@10.4365859,-71.9448446,9z/data=!4m6!3m5!1s0x8e63d2ec3cb2f48d:0xeb0f6a0e4d8f6fc3!8m2!3d10.2910237!4d-72.1416132!16zL20vMDFocnI3?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D', '_blank')"
-                                target="_blank"
-                                >Trabajamos en todo el Zulia</span>
+                        <div class="contacto-item" onclick="window.open('https://www.google.com/maps/place/Zulia,+Venezuela/', '_blank')">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </span>
+                            <span>Trabajamos en todo el Zulia</span>
                         </div>
                         <p><strong>Abierto las 24 horas!</strong></p>
                         <div class="social-links">
-                            <!--Facebook-->
-                            <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
+                            <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                                 </svg>
                             </a>
-                            <!--WhatsApp-->
-                            <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
+                            <a href="https://Wa.me/+584121213586" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                                 </svg>
                             </a>
-                            <!--Instagram-->
-                            <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                                </svg>    
+                            <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -340,10 +410,10 @@
                 <div class="contacto-cta" data-aos="fade-left">
                     <div class="qr-section">
                         <div class="qr-code">
-                            <img src="./img/Qr.png" alt="QR" height="200" width="200">
+                            <img src="./img/Qr.png" alt="Codigo QR WhatsApp VYMG">
                         </div>
                         <div>
-                            <p>¿Busca entretenimiento para sus niños?, ¡Contáctanos!</p>
+                            <p>Buscas entretenimiento para tus ninos? Contactanos!</p>
                             <h3 class="phone-number pulse-animation" onclick="location.href='tel:0412-1213586'">0412-1213586</h3>
                         </div>
                     </div>
@@ -355,7 +425,9 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <a class="footer-ref" href="https://github.com/0trebeh">&copy; Creado por: Heberto Urribarri</p>
+            <a class="footer-ref" href="https://github.com/0trebeh" target="_blank" rel="noopener noreferrer">
+                &copy; 2024 VYMG | Creado por Heberto Urribarri
+            </a>
         </div>
     </footer>
 
