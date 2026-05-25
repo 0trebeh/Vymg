@@ -20,436 +20,549 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
                 <div class="logo-letters">
-                    <span class="letter v">V</span>
-                    <span class="letter y">Y</span>
-                    <span class="letter m">M</span>
-                    <span class="letter g">G</span>
+                    <span class="letter letter-v">V</span>
+                    <span class="letter letter-y">Y</span>
+                    <span class="letter letter-m">M</span>
+                    <span class="letter letter-g">G</span>
                 </div>
-            </div>
+            </a>
             
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a></li>
                 <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#galeria" class="nav-link">Galería</a></li>
-                <li><a href="#contacto" class="nav-link">Contáctanos</a></li>
-                <li class="icons-mobile">
-
-                    <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
-                        </svg>
-                    </a>
-
-                    <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
-                        </svg>
-                    </a>
-
-                    <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                        <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                        <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                        </svg>    
-                    </a>
-            
-                </li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#sobre-nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="#contacto" class="nav-link nav-link-cta">Contacto</a></li>
             </ul>
 
-            <div class="social-icons">
-                <!--Facebook-->
-                <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
+            <div class="nav-social">
+                <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                     </svg>
                 </a>
-                <!--WhatsApp-->
-                <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
+                <a href="https://Wa.me/+584121213586" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
                 </a>
-                <!--Instagram-->
-                <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                    <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                    <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                    </svg>    
+                <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
                 </a>
             </div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-        
-        <!-- Hero Section -->
-        <div class="hero">
 
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Fiestas y Eventos VYMG.</h1>
-                    <p class="hero-subtitle">Siempre a tiempo para la diversión</p>
-                    <a href="#contacto" class="btn-cta">¡Reserva tu evento!</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+            <div class="hero-glow hero-glow-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Empresa Familiar desde 2015</span>
+                <h1 class="hero-title">
+                    Fiestas y Eventos<br>
+                    <span class="hero-title-accent">Inolvidables</span>
+                </h1>
+                <p class="hero-subtitle">Siempre a tiempo para la diversión. Inflables, trampolines, robots LED y mucho más para hacer de tu evento una experiencia mágica.</p>
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-primary">
+                        <span>Reserva tu Evento</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
                 </div>
-                
-                <div class="hero-video-wrapper">
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">500+</span>
+                        <span class="hero-stat-label">Eventos Realizados</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">9+</span>
+                        <span class="hero-stat-label">Anos de Experiencia</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">100%</span>
+                        <span class="hero-stat-label">Satisfaccion</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-video-container">
                     <video class="hero-video" autoplay loop muted playsinline>
                         <source src="img/Hero.mp4" type="video/mp4">
-                        Tu navegador no soporta videos HTML5.
                     </video>
+                    <div class="hero-video-border"></div>
                 </div>
             </div>
+        </div>
 
-            <div>
-                <!-- Blurred background copy of the video (Desktop only) -->
-                <video class="hero-video-blur" autoplay loop muted playsinline>
-                    <source src="img/Hero.mp4" type="video/mp4">
-                </video>
-                <div class="hero-overlay"></div>
-            </div>
-            
+        <div class="hero-scroll">
+            <a href="#servicios" class="scroll-indicator" aria-label="Scroll down">
+                <span class="scroll-text">Descubre mas</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </a>
         </div>
     </header>
 
     <!-- Servicios Section -->
-    <section id="servicios" class="servicios">
+    <section id="servicios" class="section servicios">
         <div class="container">
-            <h2 class="section-title">Servicios que Ofrecemos</h2>
-            <div class="servicios-grid">
+            <div class="section-header">
+                <span class="section-badge">Nuestros Servicios</span>
+                <h2 class="section-title">Todo lo que Necesitas para tu Evento</h2>
+                <p class="section-subtitle">Ofrecemos una amplia gama de servicios profesionales para hacer de tu celebracion un momento inolvidable.</p>
+            </div>
+            
+            <div class="services-grid">
                 <!-- 1. Inflables -->
-                <div class="servicio-card" data-aos="fade-up">
-                    <div class="card-image">
-                        <img src="./servicios/1.jpg" alt="Alquiler de Inflables">
+                <article class="service-card" data-aos="fade-up">
+                    <div class="service-image">
+                        <img src="./servicios/1.jpg" alt="Alquiler de Inflables" loading="lazy">
+                        <div class="service-badge badge-cyan">Diversión Garantizada</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-cyan">Diversión Garantizada</div>
-                        <h3>Inflables</h3>
-                        <p><strong>Modelos:</strong> Castillos, toboganes y diseños temáticos espectaculares.</p>
-                        <p><strong>Capacidad:</strong> 4-8 niños dependiendo del modelo.</p>
-                        <p class="warning-note">⚠️ Requiere suministro eléctrico estable y clima favorable.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Inflables</h3>
+                        <p class="service-description"><strong>Modelos:</strong> Castillos, toboganes y diseños temáticos espectaculares.</p>
+                        <p class="service-description"><strong>Capacidad:</strong> 4-8 niños dependiendo del modelo.</p>
+                        <div class="service-note note-warning">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                            <span>Requiere suministro eléctrico estable y clima favorable.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
                 
                 <!-- 2. Trampolines -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-image">
-                        <img src="./servicios/4.jpg" alt="Alquiler de Trampolines">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-image">
+                        <img src="./servicios/4.jpg" alt="Alquiler de Trampolines" loading="lazy">
+                        <div class="service-badge badge-pink">Sin Limites</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-magenta">Sin Límites</div>
-                        <h3>Trampolines</h3>
-                        <p><strong>Diámetro:</strong> 4 metros con malla de seguridad reforzada.</p>
-                        <p><strong>Capacidad:</strong> 8 niños pequeños, 3 medianos, 2 grandes.</p>
-                        <p class="success-note">⚡ ¡Funciona sin electricidad! Perfecto bajo lluvia ligera.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Trampolines</h3>
+                        <p class="service-description"><strong>Diámetro:</strong> 4 metros con malla de seguridad reforzada.</p>
+                        <p class="service-description"><strong>Capacidad:</strong> 8 niños pequeños, 3 medianos, 2 grandes.</p>
+                        <div class="service-note note-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            <span>Funciona sin electricidad! Perfecto bajo lluvia ligera.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 3. Plataforma 360 -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-image">
-                        <img src="./servicios/plataforma_360.png" alt="Plataforma de Fotos 360">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image">
+                        <img src="./servicios/plataforma_360.png" alt="Plataforma de Fotos 360" loading="lazy">
+                        <div class="service-badge badge-cyan">Tendencia</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-purple">Tendencia & Show</div>
-                        <h3>Plataforma de Fotos 360</h3>
-                        <p><strong>Tecnología:</strong> Videos HD en cámara lenta con efectos y música.</p>
-                        <p><strong>Capacidad:</strong> Hasta 4 personas a la vez en la plataforma giratoria.</p>
-                        <p class="info-note">✨ Incluye operador, luces profesionales y descarga inmediata.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Plataforma de Fotos 360</h3>
+                        <p class="service-description"><strong>Tecnología:</strong> Videos HD en cámara lenta con efectos y música.</p>
+                        <p class="service-description"><strong>Capacidad:</strong> Hasta 4 personas a la vez en la plataforma giratoria.</p>
+                        <div class="service-note note-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>Incluye operador, luces profesionales y descarga inmediata.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 4. Máquina de Burbujas y Espuma -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card-image">
-                        <img src="./servicios/maquina_burbujas.jpg" alt="Máquina de Burbujas y Espuma">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image">
+                        <img src="./servicios/maquina_burbujas.jpg" alt="Máquina de Burbujas y Espuma" loading="lazy">
+                        <div class="service-badge badge-cyan">Efectos Mágicos</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-cyan">Efectos Mágicos</div>
-                        <h3>Máquina de Burbujas y Espuma</h3>
-                        <p><strong>Diversión:</strong> Nubes de espuma y miles de burbujas continuas de largo alcance.</p>
-                        <p><strong>Seguridad:</strong> Fórmulas 100% biodegradables, hipoalergénicas y sin manchas.</p>
-                        <p class="info-note">🫧 Ideal para fiestas infantiles, eventos playeros y fotos mágicas.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Maquina de Burbujas y Espuma</h3>
+                        <p class="service-description"><strong>Diversión:</strong> Nubes de espuma y miles de burbujas continuas de largo alcance.</p>
+                        <p class="service-description"><strong>Seguridad:</strong> Fórmulas 100% biodegradables, hipoalergénicas y sin manchas.</p>
+                        <div class="service-note note-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                            <span>Ideal para fiestas infantiles, eventos playeros y fotos mágicas.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 5. Robots LED -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="400">
-                    <div class="card-image">
-                        <img src="./servicios/robots_led.png" alt="Robots LED Show">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-image">
+                        <img src="./servicios/robots_led.png" alt="Robots LED Show" loading="lazy">
+                        <div class="service-badge badge-green">Hora Loca</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-green">Hora Loca Impactante</div>
-                        <h3>Robots LED</h3>
-                        <p><strong>Espectáculo:</strong> Megarobots de más de 2.5 metros con zancos y luces RGB.</p>
-                        <p><strong>Efectos:</strong> Pistolas de lásers de colores de alta potencia integrados.</p>
-                        <p class="success-note">🔥 Animación de alto impacto para encender tu evento y pista de baile.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Robots LED</h3>
+                        <p class="service-description"><strong>Espectáculo:</strong> Megarobots de más de 2.5 metros con zancos y luces RGB.</p>
+                        <p class="service-description"><strong>Efectos:</strong> Pistolas de lásers de colores de alta potencia integrados.</p>
+                        <div class="service-note note-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                            <span>Animación de alto impacto para encender tu evento y pista de baile.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 6. Cotufera y Algodonera -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="500">
-                    <div class="card-image">
-                        <img src="./servicios/cotufera_algodonera.png" alt="Cotufera y Algodonera">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-image">
+                        <img src="./servicios/cotufera_algodonera.png" alt="Cotufera y Algodonera" loading="lazy">
+                        <div class="service-badge badge-pink">Delicias</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-yellow">Delicias Fiestas</div>
-                        <h3>Cotuferas y Algodoneras</h3>
-                        <p><strong>Servicio:</strong> Cotufas calientes crujientes y algodones de azúcar rosados ilimitados.</p>
-                        <p><strong>Presentación:</strong> Carritos temáticos tradicionales, elegantes y súper higiénicos.</p>
-                        <p class="info-note">🍿 Incluye operador capacitado durante el tiempo del servicio.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Cotuferas y Algodoneras</h3>
+                        <p class="service-description"><strong>Servicio:</strong> Cotufas calientes crujientes y algodones de azúcar rosados ilimitados.</p>
+                        <p class="service-description"><strong>Presentación:</strong> Carritos temáticos tradicionales, elegantes y súper higiénicos.</p>
+                        <div class="service-note note-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            <span>Incluye operador capacitado durante el tiempo del servicio.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 7. Pinta Caritas y Recreación -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="600">
-                    <div class="card-image">
-                        <img src="./servicios/pinta_caritas.png" alt="Pinta Caritas y Recreación">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-image">
+                        <img src="./servicios/pinta_caritas.png" alt="Pinta Caritas y Recreación" loading="lazy">
+                        <div class="service-badge badge-pink">Color y Sonrisas</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-magenta">Color & Sonrisas</div>
-                        <h3>Pinta Caritas y Recreación</h3>
-                        <p><strong>Arte:</strong> Pinturas hipoalergénicas profesionales y seguras a base de agua.</p>
-                        <p><strong>Dinámicas:</strong> Juegos cooperativos, bailes divertidos, concursos y animación de primera.</p>
-                        <p class="info-note">🎨 Diseños espectaculares de superhéroes, princesas y fantasías.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Pinta Caritas y Recreacion</h3>
+                        <p class="service-description"><strong>Arte:</strong> Pinturas hipoalergénicas profesionales y seguras a base de agua.</p>
+                        <p class="service-description"><strong>Dinámicas:</strong> Juegos cooperativos, bailes divertidos, concursos y animación de primera.</p>
+                        <div class="service-note note-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.555C21.965 6.012 17.461 2 12 2z"/></svg>
+                            <span>Diseños espectaculares de superhéroes, princesas y fantasías.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- 8. Sonido, Iluminación y Video Beam -->
-                <div class="servicio-card" data-aos="fade-up" data-aos-delay="700">
-                    <div class="card-image">
-                        <img src="./servicios/sonido_luces.png" alt="Sonido, Iluminación y Video Beam">
+                <article class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-image">
+                        <img src="./servicios/sonido_luces.png" alt="Sonido, Iluminación y Video Beam" loading="lazy">
+                        <div class="service-badge badge-cyan">Premium</div>
                     </div>
-                    <div class="card-content">
-                        <div class="card-badge neon-purple">Atmósfera Premium</div>
-                        <h3>Sonido, Iluminación y Video Beam</h3>
-                        <p><strong>Audio:</strong> Sonido profesional de alta fidelidad para todo tipo de espacios.</p>
-                        <p><strong>Efectos:</strong> Luces móviles LED rítmicas y proyección de video beam de gran nitidez.</p>
-                        <p class="info-note">🎤 Perfecto para karaoke, reproducir tus videos favoritos y bailar sin parar.</p>
+                    <div class="service-content">
+                        <h3 class="service-title">Sonido, Iluminacion y Video Beam</h3>
+                        <p class="service-description"><strong>Audio:</strong> Sonido profesional de alta fidelidad para todo tipo de espacios.</p>
+                        <p class="service-description"><strong>Efectos:</strong> Luces móviles LED rítmicas y proyección de video beam de gran nitidez.</p>
+                        <div class="service-note note-info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                            <span>Perfecto para karaoke, reproducir tus videos favoritos y bailar sin parar.</span>
+                        </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Galería Section -->
-    <section id="galeria" class="galeria-section">
-        <h2 class="section-title">Galería</h2>
-        <div class="galeria">
-            <div class="container-customgallery">
-                <div class="gallery-container" data-aos="fade-up">
-                    <div class="gallery-slider">
-                        <div class="gallery-slide active">
-                            <img src="./galeria/1.jpg" alt="Galería 1">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/2.jpg" alt="Galería 2">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/3.jpg" alt="Galería 3">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/4.jpg" alt="Galería 4">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/5.jpg" alt="Galería 5">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/6.jpg" alt="Galería 6">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/7.jpg" alt="Galería 7">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/8.jpg" alt="Galería 8">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/9.jpg" alt="Galería 9">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/10.jpg" alt="Galería 10">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/11.jpg" alt="Galería 11">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/12.jpg" alt="Galería 12">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/13.jpg" alt="Galería 13">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/14.jpg" alt="Galería 14">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/15.jpg" alt="Galería 15">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/16.jpg" alt="Galería 16">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/17.jpg" alt="Galería 17">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/18.jpg" alt="Galería 18">
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="./galeria/19.jpg" alt="Galería 19">
-                        </div>
-                    </div>
-                    <button class="gallery-btn prev" onclick="changeSlide(-1)">❮</button>
-                    <button class="gallery-btn next" onclick="changeSlide(1)">❯</button>
-                </div>
+    <!-- Galeria Section -->
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Galeria</span>
+                <h2 class="section-title">Momentos que Capturamos</h2>
+                <p class="section-subtitle">Cada evento es una historia de alegría y diversión. Aqui puedes ver algunos de nuestros mejores momentos.</p>
             </div>
 
-            <div class="jump">
-                <img class="nino" src="img/nino.jpg" width="60px" alt="boy jumping">
-                <br/>
-                <img class="tramp" src="img/trampolin.png" width="150px" alt="boy jumping">
+            <div class="gallery-wrapper" data-aos="fade-up">
+                <div class="gallery-container">
+                    <div class="gallery-slider" id="gallery-slider">
+                        <div class="gallery-slide active"><img src="./galeria/1.jpg" alt="Galería 1" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/2.jpg" alt="Galería 2" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/3.jpg" alt="Galería 3" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/4.jpg" alt="Galería 4" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/5.jpg" alt="Galería 5" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/6.jpg" alt="Galería 6" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/7.jpg" alt="Galería 7" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/8.jpg" alt="Galería 8" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/9.jpg" alt="Galería 9" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/10.jpg" alt="Galería 10" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/11.jpg" alt="Galería 11" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/12.jpg" alt="Galería 12" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/13.jpg" alt="Galería 13" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/14.jpg" alt="Galería 14" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/15.jpg" alt="Galería 15" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/16.jpg" alt="Galería 16" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/17.jpg" alt="Galería 17" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/18.jpg" alt="Galería 18" loading="lazy"></div>
+                        <div class="gallery-slide"><img src="./galeria/19.jpg" alt="Galería 19" loading="lazy"></div>
+                    </div>
+                    <button class="gallery-btn gallery-btn-prev" onclick="changeSlide(-1)" aria-label="Previous">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                    </button>
+                    <button class="gallery-btn gallery-btn-next" onclick="changeSlide(1)" aria-label="Next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </button>
+                </div>
+                <div class="gallery-dots" id="gallery-dots"></div>
             </div>
         </div>
     </section>
-
-
-    <!--Divisor-->
-    <div id="sobre-nosotros" class="divisor"></div>
 
     <!-- Sobre Nosotros Section -->
-    <section class="sobre-nosotros">
+    <section id="sobre-nosotros" class="section sobre-nosotros">
         <div class="container">
-            <h2 class="section-title">Sobre Nosotros</h2>
-            <div class="sobre-content">
-                <div class="sobre-image" data-aos="fade-right">
-                    <img src="./img/uniforme.jpg" alt="Fiestas y eventos VYMG">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="./img/uniforme.jpg" alt="Fiestas y eventos VYMG" loading="lazy">
+                        <div class="about-image-border"></div>
+                    </div>
                 </div>
-                <div class="sobre-text" data-aos="fade-left">
-                    <h3>Fiestas y eventos VYMG.</h3>
-                    <p>Somos una empresa familiar. Nos enorgullece trabajar para garantizar la diversión y seguridad de los niños. Ya sea que esté planeando una fiesta de cumpleaños, una reunión escolar o cualquier otro evento, nuestro objetivo es hacer que su evento sea un éxito.</p>
-                    <p>¡Contacte con nosotros hoy mismo para reservar su equipo de alquiler y hacer que su próximo evento sea inolvidable!</p>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-badge">Sobre Nosotros</span>
+                    <h2 class="about-title">Fiestas y Eventos VYMG</h2>
+                    <p class="about-text">Somos una empresa familiar. Nos enorgullece trabajar para garantizar la diversión y seguridad de los niños. Ya sea que esté planeando una fiesta de cumpleaños, una reunión escolar o cualquier otro evento, nuestro objetivo es hacer que su evento sea un éxito.</p>
+                    <p class="about-text">Contacte con nosotros hoy mismo para reservar su equipo de alquiler y hacer que su próximo evento sea inolvidable!</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <div>
+                                <h4>Seguridad Garantizada</h4>
+                                <p>Equipos certificados y personal capacitado</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div>
+                                <h4>Siempre Puntuales</h4>
+                                <p>Llegamos a tiempo, siempre</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <div>
+                                <h4>Pasion por la Diversion</h4>
+                                <p>Amamos lo que hacemos</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonios Section -->
-    <section class="testimonios">
+    <section id="testimonios" class="section testimonios">
         <div class="container">
-            <h2 class="section-title">Nuestro legado son clientes satisfechos!</h2>
-            <div class="testimonios-container" data-aos="fade-up">
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/C5izdHIOejv/?utm_source=ig_web_copy_link', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@0trebeh</h4>
-                        <p>¡Todo estuvo genial! Los inflables y trampolines súper divertidos y seguros. A los niños les encantó y las cotufas fueron un éxito total 🍿🎉. 100% recomendados, muy puntuales y responsables 💯👏</p>
+            <div class="section-header">
+                <span class="section-badge">Testimonios</span>
+                <h2 class="section-title">Nuestro Legado son Clientes Satisfechos</h2>
+                <p class="section-subtitle">Lo que dicen las familias que han confiado en nosotros para sus celebraciones.</p>
+            </div>
+
+            <div class="testimonials-grid" data-aos="fade-up">
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/C5izdHIOejv/?utm_source=ig_web_copy_link', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>0</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@0trebeh</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/BtHT7pil5XD/', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@carolinanohemyrojano</h4>
-                        <p>Excelente atención y paciencia con los niños!!! Los recomiendo 100% muy responsables!</p>
+                    <p class="testimonial-text">{"\"Todo estuvo genial! Los inflables y trampolines súper divertidos y seguros. A los niños les encantó y las cotufas fueron un éxito total. 100% recomendados, muy puntuales y responsables.\""}</p>
+                </article>
+
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/BtHT7pil5XD/', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>C</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@carolinanohemyrojano</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/BsBY0jHH_O7/', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@Projectlifeoriginal</h4>
-                        <p>que nivel!! 👌</p>
+                    <p class="testimonial-text">{"\"Excelente atención y paciencia con los niños!!! Los recomiendo 100% muy responsables!\""}</p>
+                </article>
+
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/BsBY0jHH_O7/', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>P</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@Projectlifeoriginal</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/Bs3ygsHg4Cc/', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@conchitahurtado14</h4>
-                        <p>Muchísimas gracias los recomiendo 100% confiables y responsables los niños disfrutaron las 5 horas de Trampolín 😄 gracias por todo 👍👏👏</p>
+                    <p class="testimonial-text">{"\"Que nivel!\""}</p>
+                </article>
+
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/Bs3ygsHg4Cc/', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>C</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@conchitahurtado14</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/CdzhJH5Ote6/', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@gerardoenavaprieto</h4>
-                        <p>Que bueno son estos chicos muy responsable y cuidadosos con los chamos</p>
+                    <p class="testimonial-text">{"\"Muchísimas gracias los recomiendo 100% confiables y responsables los niños disfrutaron las 5 horas de Trampolín gracias por todo\""}</p>
+                </article>
+
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/CdzhJH5Ote6/', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>G</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@gerardoenavaprieto</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
-                
-                <div class="testimonio" onclick="window.open('https://www.instagram.com/p/CHBbJguFxkk/', '_blank')">
-                    <div class="testimonio-content">
-                        <h4>@panyalita</h4>
-                        <p>Gracias lo recomendamos 100 porciento 👏 el chico es muy responsable y puntual</p>
+                    <p class="testimonial-text">{"\"Que bueno son estos chicos muy responsable y cuidadosos con los chamos\""}</p>
+                </article>
+
+                <article class="testimonial-card" onclick="window.open('https://www.instagram.com/p/CHBbJguFxkk/', '_blank')">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>P</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>@panyalita</h4>
+                            <span>Instagram</span>
+                        </div>
+                        <svg class="testimonial-social" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </div>
-                </div>
+                    <p class="testimonial-text">{"\"Gracias lo recomendamos 100 porciento, el chico es muy responsable y puntual\""}</p>
+                </article>
             </div>
         </div>
     </section>
-
 
     <!-- Contacto Section -->
-    <section id="contacto" class="contacto">
+    <section id="contacto" class="section contacto">
         <div class="container">
-            <h2 class="section-title">Contáctanos</h2>
-            <div class="contacto-content">
-                <div class="contacto-info" data-aos="fade-right">
-                    <div class="contacto-card">
-                        <h3>Fiestas y Eventos VYMG.</h3>
-                        <div class="contacto-item">
-                            <span class="icon">📞</span>
-                            <span onclick="location.href='tel:04121213586'">0412-1213586</span>
+            <div class="section-header">
+                <span class="section-badge">Contacto</span>
+                <h2 class="section-title">Hagamos tu Evento Realidad</h2>
+                <p class="section-subtitle">Estamos listos para ayudarte a crear momentos inolvidables. Contactanos hoy!</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3 class="contact-card-title">Fiestas y Eventos VYMG</h3>
+                        
+                        <a href="tel:04121213586" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <span>0412-1213586</span>
+                        </a>
+
+                        <a href="mailto:gerardo.nava1992@gmail.com" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <span>gerardo.nava1992@gmail.com</span>
+                        </a>
+
+                        <a href="https://www.google.com/maps/place/Zulia,+Venezuela" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <span>Trabajamos en todo el Zulia</span>
+                        </a>
+
+                        <div class="contact-availability">
+                            <div class="availability-dot"></div>
+                            <span>Disponibles las 24 horas</span>
                         </div>
-                        <div class="contacto-item">
-                            <span class="icon">✉️</span>
-                            <span onclick="location.href='mailto:gerardo.nava1992@gmail.com'">gerardo.nava1992@gmail.com</span>
-                        </div>
-                        <div class="contacto-item">
-                            <span class="icon">📍</span>
-                            <span
-                                onclick="window.open('https://www.google.com/maps/place/Zulia,+Venezuela/@10.4365859,-71.9448446,9z/data=!4m6!3m5!1s0x8e63d2ec3cb2f48d:0xeb0f6a0e4d8f6fc3!8m2!3d10.2910237!4d-72.1416132!16zL20vMDFocnI3?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D', '_blank')"
-                                target="_blank"
-                                >Trabajamos en todo el Zulia</span>
-                        </div>
-                        <p><strong>Disponibles las 24 horas!</strong></p>
-                        <div class="social-links">
-                            <!--Facebook-->
-                            <a href="https://www.facebook.com/profile.php?id=100008332032532" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.80078,0h-19.60156c-1.19922,0 -2.19922,1 -2.19922,2.19922v19.60156c0,1.19922 1,2.19922 2.19922,2.19922h9.80078v-10h-3v-3h3v-3c0,-2.5 1,-4 4,-4h3v3h-1.30078c-0.89844,0 -1.69922,0.80078 -1.69922,1.69922v2.30078h4l-0.5,3h-3.5v10h5.80078c1.19922,0 2.19922,-1 2.19922,-2.19922v-19.60156c0,-1.19922 -1,-2.19922 -2.19922,-2.19922z"></path></g></g>
-                                </svg>
+
+                        <div class="contact-social">
+                            <a href="https://www.facebook.com/profile.php?id=100008332032532" class="contact-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                             </a>
-                            <!--WhatsApp-->
-                            <a href="https://Wa.me/+584121213586" class="social-icon whatsapp" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
-                                </svg>
+                            <a href="https://Wa.me/+584121213586" class="contact-social-link contact-social-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                             </a>
-                            <!--Instagram-->
-                            <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
-                                <svg class="sgvicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
-                                <g fill="#005187" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M3.1875,0c-1.80078,0 -3.1875,1.38672 -3.1875,3.1875v17.625c0,1.80078 1.38672,3.1875 3.1875,3.1875h17.625c1.80078,0 3.1875,-1.38672 3.1875,-3.1875v-17.625c0,-1.80078 -1.38672,-3.1875 -3.1875,-3.1875zM3.1875,2h17.625c0.69922,0 1.1875,0.48828 1.1875,1.1875v4.8125h-5.0625c-1.26172,-1.24219 -3.00391,-2 -4.9375,-2c-1.93359,0 -3.67578,0.75781 -4.9375,2h-5.0625v-4.8125c0,-0.69922 0.48828,-1.1875 1.1875,-1.1875zM17.3125,3c-0.19922,0 -0.3125,0.11328 -0.3125,0.3125v3.375c0,0.19922 0.11328,0.3125 0.3125,0.3125h3.375c0.19922,0 0.3125,-0.11328 0.3125,-0.3125v-3.375c0,-0.19922 -0.11328,-0.3125 -0.3125,-0.3125zM12,8c2.80078,0 5,2.19922 5,5c0,2.80078 -2.19922,5 -5,5c-2.80078,0 -5,-2.19922 -5,-5c0,-2.80078 2.19922,-5 5,-5zM12,10c-0.30078,0 -0.60547,0.09375 -0.90625,0.09375c0.5,0.19922 0.90625,0.80469 0.90625,1.40625c0,0.80078 -0.69922,1.5 -1.5,1.5c-0.60156,0 -1.10547,-0.40625 -1.40625,-0.90625c0,0.30078 -0.09375,0.60547 -0.09375,0.90625c0,1.69922 1.30078,3 3,3c1.69922,0 3,-1.30078 3,-3c0,-1.69922 -1.30078,-3 -3,-3z"></path></g></g>
-                                </svg>    
+                            <a href="https://www.instagram.com/vymg_fiestasyeventos/" class="contact-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="contacto-cta" data-aos="fade-left">
-                    <div class="qr-section">
-                        <div class="qr-code">
-                            <img src="./img/Qr.png" alt="QR" height="200" width="200">
+
+                <div class="contact-cta" data-aos="fade-left">
+                    <div class="cta-card">
+                        <div class="qr-wrapper">
+                            <img src="./img/Qr.png" alt="QR Code WhatsApp" class="qr-image">
+                            <div class="qr-glow"></div>
                         </div>
-                        <div>
-                            <p>¿Busca entretenimiento para sus niños?, ¡Contáctanos!</p>
-                            <h3 class="phone-number pulse-animation" onclick="location.href='tel:0412-1213586'">0412-1213586</h3>
-                        </div>
+                        <p class="cta-text">Buscas entretenimiento para tus hijos? Contactanos!</p>
+                        <a href="tel:0412-1213586" class="cta-phone">
+                            <span class="cta-phone-number">0412-1213586</span>
+                        </a>
+                        <a href="https://Wa.me/+584121213586" class="btn btn-primary btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            <span>Escribenos por WhatsApp</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <a class="footer-ref" href="https://github.com/0trebeh">&copy; Creado por: Heberto Urribarri</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-letters">
+                        <span class="letter letter-v">V</span>
+                        <span class="letter letter-y">Y</span>
+                        <span class="letter letter-m">M</span>
+                        <span class="letter letter-g">G</span>
+                    </div>
+                </div>
+                <p class="footer-tagline">Siempre a tiempo para la diversión</p>
+                <div class="footer-divider"></div>
+                <p class="footer-credit">
+                    Creado por <a href="https://github.com/0trebeh" target="_blank" rel="noopener noreferrer">Heberto Urribarri</a>
+                </p>
+            </div>
         </div>
     </footer>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
 
     <script src="script.js"></script>
 </body>
