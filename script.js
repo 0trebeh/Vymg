@@ -187,7 +187,8 @@ function initScrollProgress() {
         left: 0;
         width: 0%;
         height: 4px;
-        background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+        background: linear-gradient(90deg, #00f3ff, #ff007f);
+        box-shadow: 0 0 8px rgba(0, 243, 255, 0.8), 0 0 4px rgba(255, 0, 127, 0.6);
         z-index: 9999;
         transition: width 0.1s ease;
     `;
