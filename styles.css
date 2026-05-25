@@ -67,6 +67,13 @@ body {
     overflow-x: hidden;
 }
 
+.no-select {
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge antiguo */
+  user-select: none;         /* Estándar */
+}
+
 img {
     max-width: 100%;
     height: auto;
