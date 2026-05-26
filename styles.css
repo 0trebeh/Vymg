@@ -661,7 +661,7 @@ button {
 
 .service-image {
     position: relative;
-    height: 290px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -1433,10 +1433,6 @@ button {
     .services-grid {
         grid-template-columns: 1fr;
     }
-    
-    .gallery-slider {
-        height: 350px;
-    }
 
     .gallery-jump {
         display: block;
@@ -1465,10 +1461,6 @@ button {
     .btn {
         width: 100%;
         justify-content: center;
-    }
-    
-    .gallery-slider {
-        height: 280px;
     }
     
     .gallery-btn {
