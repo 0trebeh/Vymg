@@ -5,6 +5,28 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const nav = document.getElementById('nav');
 
+const video = document.getElementById('heroVideo');
+const playBtn = document.getElementById('playBtn');
+const muteBtn = document.getElementById('muteBtn');
+
+playBtn.addEventListener('click', () => {
+    if (video.paused) {
+        video.play();
+        playBtn.textContent = '⏸';
+    } else {
+        video.pause();
+        playBtn.textContent = '▶';
+    }
+});
+
+muteBtn.addEventListener('click', () => {
+    video.muted = !video.muted;
+
+    muteBtn.textContent = video.muted
+        ? '🔇'
+        : '🔊';
+});
+
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');

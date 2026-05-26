@@ -109,9 +109,20 @@
             </div>
             <div class="hero-visual">
                 <div class="hero-video-container">
-                    <video class="hero-video" autoplay loop muted playsinline>
+                    <video id="heroVideo" class="hero-video" autoplay loop muted playsinline>
                         <source src="img/Hero.mp4" type="video/mp4">
                     </video>
+
+                    <div class="video-controls">
+                        <button id="playBtn" class="video-btn" aria-label="Play/Pause">
+                            ⏸
+                        </button>
+
+                        <button id="muteBtn" class="video-btn" aria-label="Mute/Unmute">
+                            🔇
+                        </button>
+                    </div>
+
                     <div class="hero-video-border"></div>
                 </div>
             </div>
@@ -278,44 +289,52 @@
 
     <!-- Galeria Section -->
     <section id="galeria" class="section galeria">
-        <div class="container">
+        <div class="container-gallery">
             <div class="section-header">
                 <span class="section-badge">Galeria</span>
                 <h2 class="section-title">Momentos que Capturamos</h2>
                 <p class="section-subtitle">Cada evento es una historia de alegría y diversión. Aqui puedes ver algunos de nuestros mejores momentos.</p>
             </div>
 
-            <div class="gallery-wrapper" data-aos="fade-up">
-                <div class="gallery-container">
-                    <div class="gallery-slider" id="gallery-slider">
-                        <div class="gallery-slide active"><img src="./galeria/1.jpg" alt="Galería 1" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/2.jpg" alt="Galería 2" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/3.jpg" alt="Galería 3" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/4.jpg" alt="Galería 4" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/5.jpg" alt="Galería 5" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/6.jpg" alt="Galería 6" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/7.jpg" alt="Galería 7" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/8.jpg" alt="Galería 8" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/9.jpg" alt="Galería 9" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/10.jpg" alt="Galería 10" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/11.jpg" alt="Galería 11" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/12.jpg" alt="Galería 12" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/13.jpg" alt="Galería 13" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/14.jpg" alt="Galería 14" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/15.jpg" alt="Galería 15" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/16.jpg" alt="Galería 16" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/17.jpg" alt="Galería 17" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/18.jpg" alt="Galería 18" loading="lazy"></div>
-                        <div class="gallery-slide"><img src="./galeria/19.jpg" alt="Galería 19" loading="lazy"></div>
+            <div class="gallery-jump">
+                <div class="gallery-wrapper" data-aos="fade-up">
+                    <div class="gallery-container">
+                        <div class="gallery-slider" id="gallery-slider">
+                            <div class="gallery-slide active"><img src="./galeria/1.jpg" alt="Galería 1" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/2.jpg" alt="Galería 2" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/3.jpg" alt="Galería 3" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/4.jpg" alt="Galería 4" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/5.jpg" alt="Galería 5" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/6.jpg" alt="Galería 6" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/7.jpg" alt="Galería 7" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/8.jpg" alt="Galería 8" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/9.jpg" alt="Galería 9" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/10.jpg" alt="Galería 10" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/11.jpg" alt="Galería 11" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/12.jpg" alt="Galería 12" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/13.jpg" alt="Galería 13" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/14.jpg" alt="Galería 14" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/15.jpg" alt="Galería 15" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/16.jpg" alt="Galería 16" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/17.jpg" alt="Galería 17" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/18.jpg" alt="Galería 18" loading="lazy"></div>
+                            <div class="gallery-slide"><img src="./galeria/19.jpg" alt="Galería 19" loading="lazy"></div>
+                        </div>
+                        <button class="gallery-btn gallery-btn-prev" onclick="changeSlide(-1)" aria-label="Previous">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                        </button>
+                        <button class="gallery-btn gallery-btn-next" onclick="changeSlide(1)" aria-label="Next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                        </button>
                     </div>
-                    <button class="gallery-btn gallery-btn-prev" onclick="changeSlide(-1)" aria-label="Previous">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-                    </button>
-                    <button class="gallery-btn gallery-btn-next" onclick="changeSlide(1)" aria-label="Next">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-                    </button>
+                    <div class="gallery-dots" id="gallery-dots"></div>
                 </div>
-                <div class="gallery-dots" id="gallery-dots"></div>
+                
+                <div class="jump">
+                    <img class="nino" src="img/nino.jpg" width="60px" alt="boy jumping">
+                    <br/>
+                    <img class="tramp" src="img/trampolin.png" width="150px" alt="boy jumping">
+                </div>
             </div>
         </div>
     </section>

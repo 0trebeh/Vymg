@@ -494,6 +494,49 @@ button {
     pointer-events: none;
 }
 
+.hero-video-container {
+    position: relative;
+}
+
+.video-controls {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.video-btn {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .25s ease;
+}
+
+.video-btn:hover {
+    background: rgba(255,255,255,0.25);
+    transform: scale(1.08);
+}
+
+.video-btn:active {
+    transform: scale(0.95);
+}
+
 .hero-scroll {
     position: absolute;
     bottom: 2rem;
@@ -727,8 +770,9 @@ button {
 }
 
 .gallery-wrapper {
+    width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .gallery-container {
@@ -811,6 +855,39 @@ button {
 .gallery-dot.active {
     background: var(--color-primary);
     box-shadow: var(--glow-primary);
+}
+
+/* Jumping Kid Animation */
+.gallery-jump {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.jump {
+    position: relative;
+    text-align: -webkit-center;
+    padding: 50px 0px 0px 1.5rem;
+}
+
+.nino {
+    margin-bottom: 71px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    bottom: 0px;
+    right: 20px;
+}
+
+.tramp {
+    margin-top: 122px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75vh;
+    bottom: 30px;
+    right: 20px;
 }
 
 /* ========================================
@@ -1359,6 +1436,16 @@ button {
     
     .gallery-slider {
         height: 350px;
+    }
+
+    .gallery-jump {
+        display: block;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .jump {
+        padding: 50px 0px 0px 0px;
     }
     
     .testimonials-grid {
