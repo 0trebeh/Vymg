@@ -55,7 +55,7 @@
 
 html,
 body {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 html {
@@ -1171,7 +1171,7 @@ button {
     background: var(--color-bg-card);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-xl);
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1454,6 +1454,10 @@ button {
     
     .section-title {
         font-size: 1.75rem;
+    }
+
+    .contact-social {
+        justify-content: center;
     }
 }
 
